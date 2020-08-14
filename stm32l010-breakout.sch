@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "STM32L010 Breakout Board"
-Date "2020-07-30"
+Date "2020-08-14"
 Rev "B"
 Comp "Michal Potrzebicz"
-Comment1 "https://creativecommons.org/licenses/by-sa/4.0/"
-Comment2 "Released under the CC BY-SA 4.0 License"
-Comment3 "most of the STM32L0 and STM32L4 chips in LQFP-32 packages"
-Comment4 "Universal STM32L010 breakout board compatible also with"
+Comment1 "other STM32L0 and STM32L4 chips in LQFP-32 packages"
+Comment2 "Universal STM32L010 breakout board compatible also with"
+Comment3 ""
+Comment4 "License: CC BY-SA 4.0"
 $EndDescr
 $Comp
 L Connector:Conn_ARM_JTAG_SWD_10 J1
@@ -518,7 +518,7 @@ L Transistor_BJT:BC847BS Q1
 U 2 1 5F3B1118
 P 9400 5500
 F 0 "Q1" H 9590 5546 50  0000 L CNN
-F 1 "BC847BS" H 9590 5455 50  0000 L CNN
+F 1 "BC847CDW1" H 9590 5455 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 9600 5600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf" H 9400 5500 50  0001 C CNN
 	2    9400 5500
@@ -582,7 +582,7 @@ L Transistor_BJT:BC847BS Q1
 U 1 1 5F3AF26B
 P 7900 5500
 F 0 "Q1" H 8090 5546 50  0000 L CNN
-F 1 "BC847BS" H 8090 5455 50  0000 L CNN
+F 1 "BC847CDW1" H 8090 5455 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8100 5600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf" H 7900 5500 50  0001 C CNN
 	1    7900 5500
@@ -824,13 +824,13 @@ Wire Notes Line
 Text Notes 4550 6100 0    50   ~ 0
 External reset
 Wire Notes Line
-	10000 6250 7000 6250
+	10100 6250 7000 6250
 Wire Notes Line
 	7000 6250 7000 4500
 Wire Notes Line
-	7000 4500 10000 4500
+	7000 4500 10100 4500
 Wire Notes Line
-	10000 4500 10000 6250
+	10100 4500 10100 6250
 Text Notes 7050 4600 0    50   ~ 0
 User LEDs
 Wire Wire Line
