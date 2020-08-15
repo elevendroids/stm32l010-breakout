@@ -7,10 +7,10 @@ Sheet 1 1
 Title "STM32L010 Breakout Board"
 Date "2020-08-14"
 Rev "B"
-Comp "Michal Potrzebicz"
+Comp ""
 Comment1 "other STM32L0 and STM32L4 chips in LQFP-32 packages"
 Comment2 "Universal STM32L010 breakout board compatible also with"
-Comment3 ""
+Comment3 "Michal Potrzebicz <michal@elevendroids.com>"
 Comment4 "License: CC BY-SA 4.0"
 $EndDescr
 $Comp
