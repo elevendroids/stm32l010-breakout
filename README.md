@@ -17,6 +17,8 @@ Designed in KiCad 5.1.6
 
 ![PCB Render](docs/stm32l010-breakout.png)
 
+![Prototype](docs/stm32l010-breakout-pcb.jpg)
+
 Schematic: [PDF](docs/stm32l010-breakout.pdf)
 
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
