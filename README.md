@@ -1,6 +1,7 @@
 # STM32L010 Breakout Board (Rev. B)
 
 Small MCU board designed primarly for the STM32L010K8T6 ARM Cortex-M0+ microcontroller: [Datasheet](https://www.st.com/resource/en/datasheet/stm32l010k8.pdf)
+
 Can also be used with other pin-compatible STM32 MCUs in LQFP-32 package:
 - Most of the STM32L0 family
 - STM32L4x2 (ARM Cortex-M4)
